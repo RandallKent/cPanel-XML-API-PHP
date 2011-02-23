@@ -2073,7 +2073,7 @@ class xmlapi {
 			return false;
 		}
 		$args['domain'] = $domain;
-		return $this->api1_query($username, 'Park', 'unpark', $args);
+		return $this->api2_query($username, 'Park', 'unpark', $args);
 	}
 
 	####
